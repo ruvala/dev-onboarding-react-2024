@@ -1,6 +1,6 @@
 import Square from './Square';
 
-const Board = ({ squares, onClick }) => {
+export default function Board ({ squares, onClick, boardWidth, boardHeight }){
   const renderSquare = (i) => (
     <Square value={squares[i]} onClick={() => onClick(i)} />
   );
@@ -27,5 +27,3 @@ const styles = {
     display: 'flex',
   },
 };
-
-export default Board;

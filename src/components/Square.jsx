@@ -1,8 +1,10 @@
-const Square = ({ value, onClick }) => (
-  <button style={styles.square} onClick={onClick}>
-    {value}
-  </button>
-);
+export default function Square({ value, onClick }) {
+  return (
+    <button style={styles.square} onClick={onClick}>
+      {value}
+    </button>
+  );
+};
 
 const styles = {
   square: {

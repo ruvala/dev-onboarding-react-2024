@@ -1,6 +1,6 @@
 import TicTacToe from './components/TicTacToe';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <TicTacToe />
@@ -8,4 +8,3 @@ function App() {
   );
 }
 
-export default App;

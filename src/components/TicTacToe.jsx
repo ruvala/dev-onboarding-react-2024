@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import Board from './Board';
 
+const boardWidth = 3;
+const boardHeight = 3;
+
 export default function TicTacToe() {
-  const [history, setHistory] = useState([Array(9).fill(null)]); // History of moves
+  const [history, setHistory] = useState([Array(boardWidth * boardHeight).fill(null)]); // History of moves
   const [stepNumber, setStepNumber] = useState(0); // Current move step
   const [xIsNext, setXIsNext] = useState(true); // Player turn
 
