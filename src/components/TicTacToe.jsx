@@ -164,7 +164,7 @@ export default function TicTacToe({ boardWidth, boardHeight }) {
                       return (
                         <td
                           key={boardColumnIndex}
-                          className="border-4"
+                          className="border-4 w-20 h-20"
                         >
                           {
                             /**
@@ -222,12 +222,15 @@ export default function TicTacToe({ boardWidth, boardHeight }) {
       {/* 
         Reset Button 
         Gabe TODO: Refactor into a <Button /> component
+
+        Dev TODO: Make the button do something useful!
+        Replace this alert with another function...
       */}
       <div className="flex justify-center my-8">
         <button
           className="text-center border p-2 rounded bg-gray-100 
           hover:bg-gray-200"
-          onClick={() => resetGame()}
+          onClick={() => alert("BUG: Replace this with something else...")}
         >
           Reset Game
         </button>
