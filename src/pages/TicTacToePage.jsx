@@ -14,8 +14,8 @@ export default function TicTacToePage() {
    * NOTE: In order to get an updated board,
    * modify these values and refresh your page.
    */
-  const boardHeight = 5;
-  const boardWidth = 5;
+  const boardHeight = 3;
+  const boardWidth = 3;
 
   return(
     <>

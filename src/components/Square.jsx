@@ -2,7 +2,7 @@ export default function Square({ value, onClick }) {
   return (
     <button 
       onClick={onClick}
-      className="w-20 h-20"
+      className="w-16 h-16"
     >
       {value ? value : " "}
     </button>

@@ -4,7 +4,7 @@
  * 
  * @description This function controls which page renders on your web browser.
  * If you're at the root path `/`, HelloPage is rendered
- * If you're at the `tic-tac-toe` path, TicTacToePage is rendered
+ * If you're at the `/tic-tac-toe` path, TicTacToePage is rendered
  * If you're at some other undefined page, you'll get a 404 error
  */
 

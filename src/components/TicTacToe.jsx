@@ -11,7 +11,7 @@
  */
 import { useState } from "react";
 import Square from "./Square";
-import checkForWinner from "./checkForWinner";
+import checkForWinner from "../functions/checkForWinner";
 
 /**
  * generateEmptyBoard
