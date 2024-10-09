@@ -1,21 +1,8 @@
-body {
-  font-family: Arial, sans-serif;
-}
+/**
+ * Importing TailwindCSS here...
+ * Feel free to add your own CSS clases here or create a new .css file
+ */
 
-h1 {
-  text-align: center;
-}
-
-.info {
-  text-align: center;
-}
-
-.info ol {
-  list-style: none;
-  padding: 0;
-}
-
-.info button {
-  margin: 5px;
-  padding: 5px 10px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
