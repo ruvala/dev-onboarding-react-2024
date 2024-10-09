@@ -1,4 +1,8 @@
 /**
+ * HelloPage.jsx
+ * By: Gabriel Sessions
+ * JumboCode Fall 2024
+ * 
  * This function generates the HelloPage which is rendered
  * when a user navigates to the / route (the homepage)
  */
@@ -8,7 +12,13 @@
  * in this file, we'll need to import them first! In this case,
  * we're importing the useState hook from React. 
  */
-import { useState } from "react"
+import { useState } from "react";
+
+/**
+ * We can also use the import keyword to use components
+ * from other files!
+ */
+import PageTitle from "../components/PageTitle";
 
 export default function HelloPage() {
 
@@ -31,26 +41,17 @@ export default function HelloPage() {
     <>
       {
         /**
-         * This is the header for the HelloPage
-         * 
-         * The <h1> tag creates a large header on the page
-         * 
-         * The className property allows us to add some stylistic effects 
-         * to the header. `text-center` centers the text horizontally,
-         * `text-4xl` increases the font size of the header to `4xl`, 
-         * `my-4` adds some spacing above and below the header.
+         * This is the title for this page defined as a PageTitle component.
+         * Can you find where the PageTitle component declaration is?
          */
       }
-      <h1 className="text-center text-4xl font-bold my-4">
-        Hello JumboCode Developers!
-      </h1>
-
+      <PageTitle contents="Hello, JumboCode Developers!" />
       {
         /**
          * This is a <div> which allows us to divide a webpage
-         * into different sections. In simple terms, <divs> draw
+         * into different sections. In simple terms, a <div> draws
          * boxes around sections of a webpage. By default, the
-         * boxes are invisible. Try adding a border class to the 
+         * boxes are invisible. Try adding a `border` to the className on
          * <div> to see what it looks like!
          */
       }
@@ -87,8 +88,6 @@ export default function HelloPage() {
           Reset Count
         </button>
       </div>
-
-
     </>
   )
 }
