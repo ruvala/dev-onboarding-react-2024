@@ -77,8 +77,9 @@ export default function HelloPage() {
 
         {
           /**
-           * Here's another button! There's something wrong with it,
-           * can you fix the issue?
+           * Here's another button! 
+           * 
+           * TODO: There's something wrong with it, can you fix the issue?
            */
         }
         <button
